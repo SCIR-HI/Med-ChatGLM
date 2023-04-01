@@ -8,6 +8,8 @@
 
 本项目开源了经过中文医学指令精调/指令微调(Instruct-tuning) 的ChatGLM-6B模型。我们通过医学知识图谱和GPT3.5 API构建了中文医学指令数据集，并在此基础上对ChatGLM-6B进行了指令微调，提高了ChatGLM在医疗领域的问答效果。
 
+基于相同的数据，我们还训练了医疗版本的LLaMA模型: [华驼](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)
+
 ## A Quick Start
 首先安装依赖包，python环境建议3.9+
 
