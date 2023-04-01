@@ -91,7 +91,7 @@ sh script/sft_medchat.sh
 
 ```
 @misc{ChatGLM-Med,
-  author={Haochun Wang, Chi Liu},
+  author={Haochun Wang, Chi Liu, Sendong Zhao, Bing Qin, Ting Liu},
   title = {ChatGLM-Med: 基于中文医学知识的ChatGLM模型微调},
   year = {2023},
   publisher = {GitHub},
