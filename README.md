@@ -18,9 +18,9 @@ pip install -r requirements.txt
 ## 模型下载
 训练好的模型参数可以通过如下方式下载：
 
-| 模型名称              | 大小 |                         模型下载地址                         | 
-| :----------------- | :------: | :-------------------------: | 
-| ChatGLM-6B-Med   |    约13.4GB       | [[百度网盘]](https://pan.baidu.com/s/1Sfi1bRwV741GIChIEOUW0A?pwd=i73e)<br>[[GoogleDrive]](https://) 上传中 | 
+| 模型名称              | 大小 |                                                                              模型下载地址                                                                              | 
+| :----------------- | :------: |:----------------------------------------------------------------------------------------------------------------------------------------------------------------:| 
+| ChatGLM-6B-Med   |    约13.4GB       | [[百度网盘]](https://pan.baidu.com/s/1Sfi1bRwV741GIChIEOUW0A?pwd=i73e)<br>[[GoogleDrive]](https://drive.google.com/drive/folders/1ZQSN56DloRGQ-Qj7IwzY4jV3ZHKMe9Bc)  | 
 
 
 ## 交互式测试
