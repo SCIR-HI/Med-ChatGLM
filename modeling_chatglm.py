@@ -828,7 +828,7 @@ class ChatGLMModel(ChatGLMPreTrainedModel):
         if past_key_values is None:
             past_key_values = tuple([None] * len(self.layers))
 
-            MASK, gMASK = 150000, 150001
+            MASK, gMASK = 130000, 130001
             mask_token = MASK if MASK in input_ids else gMASK
             use_gmask = False if MASK in input_ids else gMASK
             seq = input_ids[0].tolist()
@@ -972,7 +972,7 @@ class ChatGLMForConditionalGeneration(ChatGLMPreTrainedModel):
             **kwargs
     ) -> dict:
 
-        MASK, gMASK = 150000, 150001
+        MASK, gMASK = 130000, 130001
         mask_token = MASK if MASK in input_ids else gMASK
         use_gmask = False if MASK in input_ids else gMASK
         seq = input_ids[0].tolist()
