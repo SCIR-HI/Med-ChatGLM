@@ -2,7 +2,7 @@ wandb online
 exp_tag="chatglm_tuning"
 
 python run_clm.py \
-    --model_name_or_path MODEL_PATH\
+    --model_name_or_path MODEL_PATH \
     --per_device_train_batch_size 8 \
     --per_device_eval_batch_size 8 \
     --train_file ./data/train.txt \

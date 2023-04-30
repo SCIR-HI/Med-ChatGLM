@@ -10,6 +10,8 @@
 基于相同的数据，我们还训练了医疗版本的LLaMA模型: [华驼](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)
 
 ## A Quick Start
+Updata: 由于chatglm更新很快，推荐使用chatglm官方的微调方案：https://github.com/THUDM/ChatGLM-6B/blob/main/ptuning/README.md
+
 首先安装依赖包，python环境建议3.9+
 
 ```
