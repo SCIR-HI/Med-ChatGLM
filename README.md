@@ -55,7 +55,7 @@ python infer.py
 ### 指令微调
 
 ```
-sh script/sft_medchat.sh
+sh scripts/sft_medchat.sh
 ```
 请根据实际情况调整batch size等超参，默认为我们使用的参数。
 
