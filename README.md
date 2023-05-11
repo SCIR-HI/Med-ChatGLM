@@ -10,7 +10,9 @@
 基于相同的数据，我们还训练了医疗版本的LLaMA模型: [华驼](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)
 
 ## A Quick Start
-Updata: 由于chatglm更新很快，推荐使用chatglm官方的微调方案：https://github.com/THUDM/ChatGLM-6B/blob/main/ptuning/README.md
+Update: 由于chatglm更新很快，推荐使用chatglm官方的微调方案：https://github.com/THUDM/ChatGLM-6B/blob/main/ptuning/README.md
+
+
 
 首先安装依赖包，python环境建议3.9+
 
@@ -72,6 +74,19 @@ sh scripts/sft_medchat.sh
 | 谷氨酰转肽酶水平会因吸毒或饮酒而升高吗?     | 吸毒和饮酒都会对身体的健康产生负面影响,包括对肝脏和心脏的影响。<br>饮酒可能导致肝脏损伤和心脏疾病,因为酒精会破坏肝脏和心脏的功能。长期饮酒还可能导致脂肪肝、肝硬化、心脏病等健康问题。<br>吸毒会对肝脏和心脏产生严重的损伤,导致肝脏纤维化、肝硬化、心脏血管疾病等。吸毒还可能导致精神障碍、社会退缩、暴力和犯罪等问题。<br>因此,无论是饮酒还是吸毒,都会对健康产生负面影响,应该避免过度使用。 | 谷氨酰转肽酶升高的原因有很多,包括感染、消化性溃疡、感染、药物副作用等,而吸毒或饮酒等不良行为可能会导致谷氨酰转肽酶的升高。 |
 | 小李最近出现了心动过速的症状，伴有轻度胸痛。体检发现P-R间期延长，伴有T波低平和ST段异常    | 非常抱歉,我不理解您的问题。请提供更多背景信息或上下文,以便我更好地回答您的问题。谢谢! | 小李出现了心动过速的症状,并且伴有胸痛,需要考虑是否有心肌病、冠状动脉粥样硬化等心血管疾病,建议进行心电图检查、血液检查、心脏超声检查等 |
 | ......     |         ...... |......|
+
+## 常见问题
+1. Q: 报错 ValueError: 130001 is not in list / ValueError: 150001 is not in list
+
+   A: 由于相关依赖更新较快，版本的不同会导致一些bug
+
+    (1) 如果报错为150001 is not in list，请将仓库更新至最新版本
+    
+    (2) 如果报错为130001 is not in list，请将仓库回退至commit为cb9d827的版本，链接为https://github.com/SCIR-HI/Med-ChatGLM/tree/cb9d82738021ec6f82b307d6031e8595a49dcb00
+2. Q: 模型效果有限
+
+   A: 由于ChatGLM本身训练策略没有开源，本仓库内提供的指令微调训练方法可能会对ChatGLM的基础能力带来负面影响。出于版权等因素考虑，未来我们的模型迭代会侧重开源模型。
+
 
 ## 项目参与者
 本项目由哈尔滨工业大学社会计算与信息检索研究中心健康智能组[王昊淳](https://github.com/s65b40) 、[刘驰](https://github.com/thinksoso)完成，指导教师为赵森栋副教授，秦兵教授以及刘挺教授。 
