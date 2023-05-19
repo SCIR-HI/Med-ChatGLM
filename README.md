@@ -89,7 +89,7 @@ sh scripts/sft_medchat.sh
 
 
 ## 项目参与者
-本项目由哈尔滨工业大学社会计算与信息检索研究中心健康智能组[王昊淳](https://github.com/s65b40) 、[刘驰](https://github.com/thinksoso)完成，指导教师为赵森栋副教授，秦兵教授以及刘挺教授。 
+本项目由哈尔滨工业大学社会计算与信息检索研究中心健康智能组[王昊淳](https://github.com/s65b40) 、[刘驰](https://github.com/thinksoso)完成，指导教师为[赵森栋](http://homepage.hit.edu.cn/stanzhao?lang=zh)副教授，秦兵教授以及刘挺教授。 
 
 ## 致谢
 
